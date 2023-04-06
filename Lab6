@@ -1,0 +1,20 @@
+class List {
+    public:
+        void addFirst(int value) {
+            list.push_front(value);
+        }
+        void printList() {
+            for (auto const& i : list) {
+                cout << i << endl;
+            }
+        }
+        int size2() {
+            return list.size();
+        }
+        bool exists(int value) {
+            for (auto const& i : list) {
+                if (i == value) {
+                    return true;
+    }
+ }
+            return false;
